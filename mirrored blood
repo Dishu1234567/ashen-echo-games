@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashen Echo Games - Mirrored Blood</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d0d0d;
+            color: #d1d5db;
+        }
+        .text-gradient {
+            background-image: linear-gradient(to right, #ef4444, #f87171);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="bg-gray-900 bg-opacity-50 backdrop-blur-md sticky top-0 z-50 py-4 border-b border-red-500 border-opacity-20">
+        <div class="container flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <div class="w-12 h-12 rounded-full border border-gray-600 flex items-center justify-center p-2">
+                    <!-- Ashen Echo Games Logo SVG -->
+                    <svg class="w-full h-full text-red-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 22H22L12 2Z" fill="currentColor" />
+                        <path d="M12 4.5L5.8 19.5L12 15L18.2 19.5L12 4.5Z" fill="black" />
+                    </svg>
+                </div>
+                <h1 class="text-2xl font-bold text-gray-200 tracking-wide">ASHEN ECHO GAMES</h1>
+            </div>
+            <nav>
+                <a href="#about" class="text-gray-400 hover:text-red-400 transition-colors duration-200 mx-2 sm:mx-4">About</a>
+                <a href="#jobs" class="text-gray-400 hover:text-red-400 transition-colors duration-200 mx-2 sm:mx-4">Jobs</a>
+                <a href="#contact" class="text-gray-400 hover:text-red-400 transition-colors duration-200 mx-2 sm:mx-4">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative h-[80vh] flex items-center justify-center text-center p-4">
+            <!--<div class="absolute inset-0 bg-cover bg-center opacity-20" style="background-image: url('https://placehold.co/1920x1080/0d0d0d/86888B?text=Mirrored+Blood+Concept+Art');"></div>-->
+            <div class="relative z-10">
+                <h2 class="text-5xl md:text-7xl font-extrabold text-gray-100 leading-tight">
+                    Welcome to <br class="sm:hidden" /><span class="text-gradient">Ashen Echo Games</span>
+                </h2>
+                <p class="mt-4 text-xl md:text-2xl font-light text-gray-300 max-w-2xl mx-auto">
+                    Crafting worlds of dark fantasy, sci-fi, and compelling narratives.
+                </p>
+                <div class="mt-8 flex justify-center space-x-4">
+                    <a href="#about" class="px-6 py-3 bg-red-600 text-white font-semibold rounded-full shadow-lg hover:bg-red-700 transition-colors duration-200">
+                        Learn More
+                    </a>
+                    <a href="#jobs" class="px-6 py-3 border border-red-500 text-red-400 font-semibold rounded-full hover:bg-red-500 hover:text-white transition-colors duration-200">
+                        Join Our Team
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 px-4">
+            <div class="container text-center">
+                <h3 class="text-4xl font-bold text-gray-100">About Our Project</h3>
+                <p class="mt-4 text-lg text-gray-400 max-w-4xl mx-auto">
+                    Our first project, **Mirrored Blood**, is a dark fantasy RPG with sci-fi elements centered around vampires, pendragons, and a necromancer witch. We're building a world with a unique narrative and a rich, interconnected universe. The game will feature a unique blend of swordplay, ranged combat, and high-mobility traversal, allowing for a truly dynamic and engaging experience.
+                </p>
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-800 rounded-xl p-8 shadow-xl border border-gray-700">
+                        <h4 class="text-2xl font-bold text-gray-100">Our Vision</h4>
+                        <p class="mt-4 text-gray-400">
+                            We aim to create a polished, narrative-driven experience that captivates players with its story and rewards them with deep, satisfying gameplay. We believe that a strong, passionate team is the key to bringing this vision to life.
+                        </p>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-8 shadow-xl border border-gray-700">
+                        <h4 class="text-2xl font-bold text-gray-100">The Opportunity</h4>
+                        <p class="mt-4 text-gray-400">
+                            As an unfunded studio, we operate on a **revenue-share model**. Our immediate goal is to create a high-quality demo to secure funding. Once funded, all team members will transition to a salary-based contract. This is a unique chance to be a co-founder and have a lasting creative impact.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Job Vacancies Section -->
+        <section id="jobs" class="py-20 px-4">
+            <div class="container">
+                <h3 class="text-4xl font-bold text-center text-gray-100">Join Our Team</h3>
+                <p class="mt-4 text-lg text-center text-gray-400 max-w-3xl mx-auto">
+                    We are actively seeking passionate and talented co-founders to help us build the world of Mirrored Blood. If you are a visionary who wants to create something from the ground up, we want to hear from you.
+                </p>
+
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Job Card: World Designer -->
+                    <div class="bg-gray-800 rounded-xl p-6 shadow-xl border border-red-500 border-opacity-20 hover:border-red-500 transition-colors duration-200">
+                        <h4 class="text-2xl font-bold text-red-400">World Designer</h4>
+                        <p class="mt-2 text-gray-400">
+                            Craft the intricate levels and environments of Mirrored Blood. Your creativity will define the look and feel of our dark fantasy world, from sprawling exteriors to detailed interiors.
+                        </p>
+                    </div>
+
+                    <!-- Job Card: Gameplay Programmer -->
+                    <div class="bg-gray-800 rounded-xl p-6 shadow-xl border border-red-500 border-opacity-20 hover:border-red-500 transition-colors duration-200">
+                        <h4 class="text-2xl font-bold text-red-400">Gameplay Programmer</h4>
+                        <p class="mt-2 text-gray-400">
+                            Bring our unique mechanics to life, including the Laser Propulsor and Sword combat etc. You'll be a key part of our core gameplay loop and systems.
+                        </p>
+                    </div>
+
+                    <!-- Job Card: Character Artist -->
+                    <div class="bg-gray-800 rounded-xl p-6 shadow-xl border border-red-500 border-opacity-20 hover:border-red-500 transition-colors duration-200">
+                        <h4 class="text-2xl font-bold text-red-400">Character Artist</h4>
+                        <p class="mt-2 text-gray-400">
+                            Design and create the heroes, villains, and creatures of our world. Your art will bring our narrative to life, from the protagonists Boy and Lady to the various pendragon enemies and vampires.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 px-4">
+            <div class="container text-center bg-gray-900 rounded-2xl p-8 border border-red-500 border-opacity-20">
+                <h3 class="text-4xl font-bold text-gray-100">Ready to Join Us?</h3>
+                <p class="mt-4 text-lg text-gray-400 max-w-2xl mx-auto">
+                    If you're interested in becoming a co-founder and having a profound impact on the future of our studio, please get in touch.
+                </p>
+                <div class="mt-6">
+                    <p class="text-xl font-semibold text-gray-200">Contact Divyansh Baranwal</p>
+                    <p class="mt-2 text-red-400 text-lg">
+                        <a href="mailto:divyanshbaranwal63@gmail.com" class="hover:underline">divyanshbaranwal63@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-6 px-4 text-center text-gray-500 text-sm border-t border-red-500 border-opacity-20">
+        <p>&copy; 2024 Ashen Echo Games. All rights reserved. Mirrored Blood is a registered trademark of Ashen Echo Games.</p>
+    </footer>
+
+</body>
+</html>
